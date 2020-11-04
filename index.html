@@ -16,7 +16,7 @@
 
 <body>
 <!--header nav-->
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top" id="nav">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header pull-left">
@@ -36,8 +36,8 @@
       <ul class="nav navbar-nav">
           <li class="active"><a href="javascript:void(0)">HOME</a></li>
           <li><a href="#section2">SAAS PRODUCT</a></li>
-          <li><a href="javascript:void(0)">RESELLERS</a></li>
-          <li><a href="javascript:void(0)">LEARNING CENTER</a></li>
+          <li><a href="#section2">RESELLERS</a></li>
+          <li><a href="#learning">LEARNING CENTER</a></li>
       </ul>
     </div>
 	<ul class="nav navbar-nav navbar-right pull-right">
@@ -101,7 +101,7 @@
 	
 
 <!--How it works-->
-<div class="hiw">
+<div class="hiw" id="learning">
     <div class="container">
 		<h3 class="hdline">How it works</h3>
 		<h4 class="wow fadeIn" data-wow-delay=".20s">For SaaS Products</h4>
@@ -190,7 +190,8 @@
 		<div class="clearfix row">
 			<div class="col-md-8">
 			 	<big class="wow fadeInDown" data-wow-delay=".30s">Reach out to know more</big>
-				<a href="javascript:void(0)" class="btn wide btn-white wow fadeIn mrT2" data-wow-delay=".50s">Contact Us</a>
+				<!-- <a href="javascript:void(0)" class="btn wide btn-white wow fadeIn mrT2" data-wow-delay=".50s">Contact Us</a> -->
+				<a class="typeform-share button btn wide btn-white wow fadeIn mrT2" href="https://form.typeform.com/to/KUImVdnb" data-mode="popup"  target="_blank">Contact Us </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 			</div>
 			
 			<div class="col-md-4 text-center">
@@ -208,11 +209,11 @@
 <footer class="clearfix">
 	<div class="container">
         <div class="links">
-        	<a href="javascript:void(0)"><span>HOME</span></a>
-			<a href="javascript:void(0)"><span>SaaS Product</span></a>
-			<a href="javascript:void(0)"><span>Resellers</span></a>
-			<a href="javascript:void(0)"><span>Learning Center</span></a>
-			<a href="javascript:void(0)"><span>FAQ</span></a>
+        	<a href="#nav"><span>HOME</span></a>
+			<a href="#section2"><span>SaaS Product</span></a>
+			<a href="#section2"><span>Resellers</span></a>
+			<a href="#learning"><span>Learning Center</span></a>
+			<a href="faqs.integrators.io"><span>FAQs</span></a>
         </div>
 		
         <div class="text-center">
